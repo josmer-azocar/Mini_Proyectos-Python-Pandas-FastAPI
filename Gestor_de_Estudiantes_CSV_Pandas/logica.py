@@ -24,7 +24,7 @@ def eliminarFilaPorIndice(indice):
     csvHandler.eliminarFila(indice)
 
 def mostrarInstrucciones():
-    with open(r"Portfolio\Gestor_de_Estudiantes_CSV_Pandas\instrucciones.txt", encoding = "UTF-8") as archivo:
+    with open(r"Gestor_de_Estudiantes_CSV_Pandas\instrucciones.txt", encoding = "UTF-8") as archivo:
         contenido = archivo.read()
     print(contenido)
     espera = input("ingrese cualquier digito para continuar\n")
