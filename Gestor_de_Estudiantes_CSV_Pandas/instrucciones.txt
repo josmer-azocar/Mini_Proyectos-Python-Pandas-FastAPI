@@ -1,0 +1,9 @@
+            ---INSTRUCCIONES DEL PROGRAMA---
+
+Este Programa esta hecho para gestionar los datos de estudiantes en un archivo CSV usando Pandas,
+    permitiendo agregar, eliminar, modificar y buscar estudiantes de manera eficiente.
+Es importante que el archivo CSV tenga las siguientes columnas:
+    - Nombre
+    - Edad
+    - Grado
+    - Sección
